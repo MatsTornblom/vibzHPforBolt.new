@@ -1,0 +1,82 @@
+:root {
+  --primary-black: #000000;
+  --primary-yellow: #fff4cf;
+  --primary-red: #df2717;
+  --primary-blue: #279dbb;
+  --background: #ffffff;
+  --foreground: #000000;
+}
+@font-face {
+  font-family: "Climate Crisis";
+  src: url("/fonts/Climate_Crisis/ClimateCrisis-Regular-VariableFont_YEAR.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "de-augusta";
+  src: url("/fonts/de-augusta-vintage/DeAugusta.ttf") format("truetype");
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: 10px;
+  h2,
+  p {
+    color: var(--primary-red);
+  }
+
+  h2 {
+    font-family: "Climate Crisis";
+  }
+
+  h3 {
+    font-family: "Poppins-bold";
+  }
+
+  p {
+    font-family: "Poppins";
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--primary-yellow);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
