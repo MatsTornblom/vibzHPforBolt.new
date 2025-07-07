@@ -32,7 +32,7 @@ const HeroComponent = () => {
         </TextContainer>
         <VibzBtn>$Vibz</VibzBtn>
       </WidthConstrainer>
-      {screenSize > 900 && <ContactInfo>Contract address to come</ContactInfo>}
+      {screenSize > 900 && <ContactInfo>Contract address soon..</ContactInfo>}
     </HeroSection>
   )
 }
